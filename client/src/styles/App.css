@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex; 
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    min-height: 90vh; /* 화면 전체 높이 */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh; 
+    width: 80vh;
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+  }
+  
+  .app-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .app-main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f1f1f1;
+    padding: 0px 15px; 
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    height: 5vh; 
+  }
+  
+  .user-info .center-content {
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+    flex-grow: 1; 
+  }
+  
+  .user-info .logout-btn {
+    margin-left: auto; 
+  }
+  
+  .user-info .name-region {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e63939;
+  }
+
+
+.user-info {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #f1f1f1;
+  padding: 5px 10px; 
+  border-bottom: 1px solid #ccc;
+  height: auto; 
+}
+
+.name-region h2,
+.name-region h6 {
+  margin: 0; /* 여백 제거 */
+  padding: 0; /* 내부 여백 제거 */
+  line-height: 1.2; /* 줄 간격 줄이기 */
+}
+
+.name-region h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name-region h6 {
+  font-size: 14px;
+  color: #888;
+}
