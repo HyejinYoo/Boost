@@ -76,3 +76,46 @@ client/
 
 - `db.js` 파일에서 MySQL 데이터베이스 연결을 `mysql2/promise` 라이브러리를 사용해 비동기로 처리합니다.
 - `.env` 파일에서 DB 정보를 관리하여 보안성을 유지합니다.
+
+
+<br>
+
+---  
+
+<br>
+
+
+<details>
+  <summary>회원가입/로그인/로그아웃</summary>
+ 
+  ![image](https://github.com/user-attachments/assets/33bb327b-a373-4806-867d-6f8fc154f61e)
+
+  ![image1](https://github.com/user-attachments/assets/fbe2803e-edc4-4d5a-ae7c-67c5482e54f0)
+
+</details>
+
+
+<details>
+  <summary>회원가입 시 지역 설정</summary>
+
+  ![image2](https://github.com/user-attachments/assets/8c3bbf63-72ca-4ddd-a602-2b83ba3a660b)
+
+</details>
+
+
+<details>
+  <summary>자기가 가입한 지역에서 후보 등록(신청) 가능</summary>
+
+  ![스크린샷 2024-11-16 223950](https://github.com/user-attachments/assets/7b545bd0-be0d-4b32-a52d-ee093d146fb9)
+
+</details>
+
+
+<details>
+  <summary>투표 작동 (투표 표수 반영X 결과 표기될 필요X)</summary>
+  
+  ![스크린샷 2024-11-16 224227](https://github.com/user-attachments/assets/b3f12920-3924-4307-a2da-63c81d7145c5)
+
+</details>
+
+
